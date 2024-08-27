@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The TwrpBuilder Open-Source Project
+# Copyright (C) 2024 The TwrpBuilder Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,8 +17,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_miatoll.mk
 
-COMMON_LUNCH_CHOICES := \
-    twrp_miatoll-user \
-    twrp_miatoll-userdebug \
-    twrp_miatoll-eng
-#
+COMMON_LUNCH_CHOICES := twrp_miatoll-eng

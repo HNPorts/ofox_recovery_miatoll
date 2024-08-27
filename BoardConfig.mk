@@ -1,7 +1,7 @@
 #
-# Copyright (C) 2019 The TwrpBuilder Open-Source Project
+# Copyright 2024 The Android Open Source Project
 #
-# Copyright (C) 2020-2023 OrangeFox Recovery Project
+#  Copyright (C) 2021-2024 The OrangeFox Recovery Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -195,4 +195,8 @@ endif
 #
 # debug for backups
 # TW_LIBTAR_DEBUG := true
+#
+
+# device information for "fastboot update <zip-file>"
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 #

@@ -1,7 +1,7 @@
 #
-# Copyright (C) 2019 The TwrpBuilder Open-Source Project
+# Copyright (C) 2024 The TwrpBuilder Open-Source Project
 #
-# Copyright (C) 2020-2023 OrangeFox Recovery Project
+# Copyright (C) 2020-2024 OrangeFox Recovery Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

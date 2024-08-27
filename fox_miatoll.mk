@@ -47,6 +47,9 @@ OF_UNBIND_SDCARD_F2FS := 1
 # dispense with flashlight on both variants
 OF_FLASHLIGHT_ENABLE := 0
 
+# number of list options before scrollbar creation
+OF_OPTIONS_LIST_NUM := 9
+
 # FBEv2
 ifeq ($(FOX_VARIANT),FBEv2)
 	# no additional check for MIUI props

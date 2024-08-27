@@ -176,6 +176,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # deal with "error: overriding commands for target" problems
 BUILD_BROKEN_DUP_RULES := true
 
+# frame rate
+TW_FRAMERATE := 60
+
 # FBEv1 or FBEv2 ?
 ifeq ($(FOX_VARIANT),FBEv2)
    TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/FBEv2/recovery-fbev2.fstab
